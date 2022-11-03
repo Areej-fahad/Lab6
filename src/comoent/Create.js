@@ -1,9 +1,13 @@
 import React ,{useState} from 'react'
 import axios from 'axios'
+import {useNavgate} from "react-router-dom"
+import { BrowserRouter as Router, Route } from 'react-router-dom'
+
 
 function create() {
     const [fname,setFName]= useState()
-    const [lname,setLName]= useState()
+    const [lname,setLName]= useStat
+    e()
     const [email,setEmail]= useState()
     const [password,setPassword]= useState()
     const postData =()=>{
@@ -18,6 +22,10 @@ console.log(res)
     })
 }
   return (
+
+
+
+    
     <div>
 
         <input placeholder='fName' onChange={(e)=>{
